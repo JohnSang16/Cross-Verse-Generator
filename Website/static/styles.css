@@ -1,0 +1,80 @@
+/* Full Black Background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Full black background */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centering the content */
+.container {
+    background-color: transparent; /* Transparent background for the container */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Prompt text */
+.prompt {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: transparent; /* Make the prompt background transparent */
+    border: none;
+}
+
+/* Input field */
+input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Cross Icon Button */
+button {
+    background-color: transparent; /* Make the button background transparent */
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* The cross image */
+#cross-icon {
+    width: 250px; /* Adjust the size of the cross */
+    height: 250px; /* Adjust the size of the cross */
+    filter: invert(1); /* Invert the colors to make it visible on black background */
+}
+
+#bible-verse {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffc107;
+}
+
+/* Attribution link */
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

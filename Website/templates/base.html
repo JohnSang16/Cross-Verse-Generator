@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Bible Verse</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Prompt Input -->
+        <p class="prompt">I am feeling...</p>
+        <input type="text" id="season-input" placeholder="Enter your situation">
+
+        <!-- Cross Icon Button -->
+        <button id="random-verse-btn">
+            <img src="{{ url_for('static', filename='cross-icon.png') }}" alt="Cross Icon" id="cross-icon">
+        </button>
+
+        <!-- Display Random Verse -->
+        <p id="bible-verse"></p>
+
+        <!-- Attribution for the Icon -->
+        <p>
+            <a href="https://www.flaticon.com/free-icons/cross" title="cross icons">
+                Cross icons created by Freepik - Flaticon
+            </a>
+        </p>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
