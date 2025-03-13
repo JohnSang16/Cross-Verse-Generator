@@ -29,7 +29,13 @@ mood_verses = {
         "Matthew 28:20: And surely I am with you always, to the very end of the age.", 
         "Psalm 23:4: Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.", 
         "Isaiah 41:10: So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.",
-          ]
+          ],
+    'tiredness': [
+        "Matthew 11:28-29 Come to me, all you who are weary and burdened, and I will give you rest.Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls.",
+        "Psalm 62:1  “Truly my soul finds rest in God; my salvation comes from him.",
+        "Jeremiah 31:25  “I will refresh the weary and satisfy the faint.",
+        "Psalm 46:1  “God is our refuge and strength,  an ever-present help in trouble."
+    ]
 }
 
 # Mapping similar moods to a common group
@@ -46,7 +52,12 @@ mood_aliases = {
     "sad" : "depression",
     "down" : "depression",
     "blue" : "depression",
-    "sadness" : "depression",
+    "sadness" : "depression",  
+    "depressed" : "depression",
+    "tired": "tiredness",
+    "weary": "tiredness",
+    "exhausted" : "tiredness"
+
 }
 
 # List of random Bible verses (for when there is no specific mood)
@@ -67,10 +78,10 @@ def get_random_verse():
 @app.route('/get-verse-for-situation')
 def get_verse_for_situation():
     # Get the 'season' parameter from the query string (user's input)
-    season = request.args.get('season', '').lower()
+    mood = request.args.get('mood', '').lower()
 
     # Check if the input matches any mood alias
-    mapped_season = mood_aliases.get(season, season)  # If it's in aliases, use the mapped one
+    mapped_season = mood_aliases.get(mood, mood)  # If it's in aliases, use the mapped one
 
     # Find the corresponding list of verses
     verses = mood_verses.get(mapped_season)
