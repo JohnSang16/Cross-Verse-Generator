@@ -47,6 +47,7 @@ mood_aliases = {
     "worry": "fear",
     "stress": "fear",
     "happiness":"joy",
+    "happy: joy"
     "alone" : "loneliness",
     "poor" : "poverty",
     "sad" : "depression",
