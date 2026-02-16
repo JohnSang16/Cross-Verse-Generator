@@ -1,11 +1,12 @@
 
 <h2>✝️ Cross-Verse Generator</h2>
 <p align="center">
-<img src="Website/static/cross-icon.png" alt="Cross Verse Logo" width="120px">
+<img src="Website/static/cross-icon.png" alt="Cross Verse Logo" width="100%" height="100%">
 
 
 
 <i>"Thy word is a lamp unto my feet, and a light unto my path."</i>
+  <p style="text-align: center;"><a href =https://cross-verse-generator.onrender.com/><u>View Live Demo</u></a></p>
 </p>
 
 <h2>📖 Overview</h2>
