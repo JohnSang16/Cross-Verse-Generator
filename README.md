@@ -1,7 +1,7 @@
 
 <h2>✝️ Cross-Verse Generator</h2>
 <p align="center">
-<img src="Website/static/cross-icon.png" alt="Cross Verse Logo" width="100%" height="100%">
+<img src="Website/static/cross-icon.png" alt="Cross Verse Logo" width="100%" height="80%">
 
 
 
