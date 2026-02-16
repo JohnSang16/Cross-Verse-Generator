@@ -76,6 +76,6 @@ Special Thanks to:
     <a href:https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world><strong>Miguel Grinberg's </strong>:</a> Whose <em>Flask Mega-Tutorial</em> served as the foundational roadmap for mastering routing, templates, and the deployment of this web service.
   </li>
   <li>
-    <a href:https://bible.com>The Bible App</strong>: Providing scripture for this app's verses and being an accesible free program for Christian's around the world</a>
+    <a href:https://bible.com><strong>The Bible App</strong>: Providing scripture for this app's verses and being an accesible free program for Christian's around the world</a>
   </li>
 </ul>
